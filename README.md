@@ -1,4 +1,7 @@
-# Odyssey: Creation, Analysis and Detection of Trojan Models
+# Odyssey: Creation, Analysis and Detection of Trojan Models 
+   
+
+Odyssey is a comprehensive study on creating, analaysing and detecting Trojan models conducted jointly by by Marzieh Edraki, Nazmul Karim, Nazanin Rahnavard, Ajmal Mian and Mubarak Shah from [**LCWN lab**](http://cwnlab.eecs.ucf.edu) and [**CRCV group**](https://www.crcv.ucf.edu).  
 
 ## Introduction 
 Trojan attack is one of the recent variant of data poisoning attacks that involves manipulation or modification of the model to act balefully.
@@ -8,7 +11,7 @@ A major reason for the lack of a realistic Trojan detection method has been the 
 
 ## Odysseus
 
-While creating **Odysseus**, we focused on several factors such as mapping type, model architectures, fooling rate and validation accuracy of each model and also type of trigger. 
+While creating [**Odysseus**](https://drive.google.com/drive/folders/1o-F3ttZS6el975XZOHOtqj8YxncHOivd?usp=sharing), we focused on several factors such as mapping type, model architectures, fooling rate and validation accuracy of each model and also type of trigger. 
 These models are trained on 3 CIFAR10, Fashion-MNIST and MNIST datasets. 
 
 ![alt tag](./fig/model_creation.png)
