@@ -2,10 +2,10 @@
 Marzieh Edraki<sup>1</sup>, Nazmul Karim <sup> 2</sup> <br/>
 Nazanin Rahnavard<sup>1,2</sup>, Ajmal Mian <sup>3</sup> and Mubarak Shah<sup>1</sup><br/>
 <sup>1</sup> Center for Research in Computer Vision<br/>
-<sup>2</sup>Department of Electrical and Computer Engineering \
-University of Central Florida \
-<sup>3</sup> School of Computer Science and Software \
-Engineering University of Western Australia. 
+<sup>2</sup>Department of Electrical and Computer Engineering <br/>
+The University of Central Florida <br/>
+<sup>3</sup> School of Computer Science and Software Engineering <br/>
+The University of Western Australia. 
    
 
 Odyssey is a comprehensive study on creating, analaysing and detecting Trojan models conducted jointly by [**LCWN lab**](http://cwnlab.eecs.ucf.edu) and [**CRCV group**](https://www.crcv.ucf.edu).  
