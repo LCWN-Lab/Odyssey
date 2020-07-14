@@ -9,7 +9,7 @@ The University of Central Florida <br/>
 The University of Western Australia.
 <p>
    
-
+<p align="left"> 
 Odyssey is a comprehensive study on creating, analaysing and detecting Trojan models conducted jointly by [**LCWN lab**](http://cwnlab.eecs.ucf.edu) and [**CRCV group**](https://www.crcv.ucf.edu).  
 
 ## Introduction 
@@ -21,7 +21,9 @@ A major reason for the lack of a realistic Trojan detection method has been the 
 ## Odysseus
 
 While creating [**Odysseus**](https://drive.google.com/drive/folders/1o-F3ttZS6el975XZOHOtqj8YxncHOivd?usp=sharing), we focused on several factors such as mapping type, model architectures, fooling rate and validation accuracy of each model and also type of trigger. These models are trained on CIFAR10, Fashion-MNIST and MNIST datasets. 
-
+<p> 
+<p align="center"> 
 ![alt tag](./fig/model_creation.png)
+<p>
 
 
