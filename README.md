@@ -5,7 +5,7 @@ Nazanin Rahnavard<sup>1,2</sup>, Ajmal Mian <sup>3</sup> and Mubarak Shah<sup>1<
 <sup>2</sup>Department of Electrical and Computer Engineering <br/>
 The University of Central Florida <br/>
 <sup>3</sup> School of Computer Science and Software Engineering <br/>
-The University of Western Australia.</div>
+The University of Western Australia <br/></div>
    
 
 Odyssey is a comprehensive study on creating, analaysing and detecting Trojan models conducted jointly by [**LCWN lab**](http://cwnlab.eecs.ucf.edu) and [**CRCV group**](https://www.crcv.ucf.edu).  
