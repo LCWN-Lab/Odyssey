@@ -1,8 +1,10 @@
 # Odyssey: Creation, Analysis and Detection of Trojan Models 
-Marzieh Edraki<sup>1</sup>, Nazmul Karim <sup> 2</sup>, Nazanin Rahnavard<sup>1,2</sup>, Ajmal Mian <sup>3</sup> and Mubarak Shah<sup>3</sup>\
-<sup>1</sup> Center for Research in Computer Vision, <sup>2</sup>Department of Electrical and Computer Engineering\
+Marzieh Edraki<sup>1</sup>, Nazmul Karim <sup> 2</sup> \
+Nazanin Rahnavard<sup>1,2</sup>, Ajmal Mian <sup>3</sup> and Mubarak Shah<sup>3</sup>\
+<sup>1</sup> Center for Research in Computer Vision\
+<sup>2</sup>Department of Electrical and Computer Engineering \
 University of Central Florida \
-<sup>3</sup> School of Computer Science and Software\ 
+<sup>3</sup> School of Computer Science and Software \ 
 Engineering University of Western Australia. 
    
 
