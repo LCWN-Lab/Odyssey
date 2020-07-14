@@ -1,6 +1,6 @@
 # Odyssey: Creation, Analysis and Detection of Trojan Models 
 Marzieh Edraki<sup>1</sup>, Nazmul Karim <sup> 2</sup> \
-Nazanin Rahnavard<sup>1,2</sup>, Ajmal Mian <sup>3</sup> and Mubarak Shah<sup>3</sup>\
+Nazanin Rahnavard<sup>1,2</sup>, Ajmal Mian <sup>3</sup> and Mubarak Shah<sup>1</sup>\
 <sup>1</sup> Center for Research in Computer Vision\
 <sup>2</sup>Department of Electrical and Computer Engineering \
 University of Central Florida \
@@ -8,7 +8,7 @@ University of Central Florida \
 Engineering University of Western Australia. 
    
 
-Odyssey is a comprehensive study on creating, analaysing and detecting Trojan models conducted jointly by by Marzieh Edraki, Nazmul Karim, Dr. Nazanin Rahnavard, Dr. Ajmal Mian and Dr. Mubarak Shah from [**LCWN lab**](http://cwnlab.eecs.ucf.edu) and [**CRCV group**](https://www.crcv.ucf.edu).  
+Odyssey is a comprehensive study on creating, analaysing and detecting Trojan models conducted jointly by [**LCWN lab**](http://cwnlab.eecs.ucf.edu) and [**CRCV group**](https://www.crcv.ucf.edu).  
 
 ## Introduction 
 Trojan attack is one of the recent variant of data poisoning attacks that involves manipulation or modification of the model to act balefully.
