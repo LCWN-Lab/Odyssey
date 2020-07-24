@@ -34,6 +34,7 @@ By analysising the models in Odysseus, we found that Trojan attacks affect the i
 
   ![alt tag](./fig/Acc.png)
   
+  
   The details of this study can be found [here](https://arxiv.org/pdf/2007.08142.pdf)
 
 ## Accessing Odysseus
