@@ -24,5 +24,10 @@ While creating [**Odysseus**](https://drive.google.com/drive/folders/1o-F3ttZS6e
 ![alt tag](./fig/model_creation.png)
 
 ## Trojan Detector
+By analysising the models in Odysseus, we found that Trojan attacks affect the intrinisic properties of NN models. Specifically they can  
+  * Reduce the classifier margin.
+  * Reduce the non-linearity of the decission boundaries around clean data.
+  
+  Based on these finding, we propose a new Trojan detector that sets a high baseline for the Odysseus dataset. 
 
 
