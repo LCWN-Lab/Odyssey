@@ -30,4 +30,4 @@ By analysising the models in Odysseus, we found that Trojan attacks affect the i
   
   Based on these finding, we propose a new Trojan detector that sets a high baseline for the Odysseus dataset. 
 
-
+  ![alt tag](./fig/performance.png)
