@@ -8,7 +8,7 @@ The University of Central Florida <br/>
 The University of Western Australia <br/></div>
    
 
-Odyssey is a comprehensive study on creating, analaysing and detecting Trojan models conducted jointly by [**LCWN lab**](http://cwnlab.eecs.ucf.edu) and [**CRCV group**](https://www.crcv.ucf.edu).  
+Odyssey is a comprehensive study on creating, analaysing and detecting Trojan models conducted jointly by [**LCWN lab**](http://cwnlab.eecs.ucf.edu), [**CRCV group**](https://www.crcv.ucf.edu) and [**MIG group**](https://staffhome.ecm.uwa.edu.au/~00053650/).  
 
 ## Introduction 
 Trojan attack is one of the recent variant of data poisoning attacks that involves manipulation or modification of the model to act balefully.
@@ -36,3 +36,5 @@ By analysising the models in Odysseus, we found that Trojan attacks affect the i
   * [Odysseus-CIFAR10 ](https://drive.google.com/file/d/1xOP02xMflwpn0M7WGa9PibvxAdnNA4tn/view?usp=sharing)
   * [Odysseus-FashionMNIST](https://drive.google.com/file/d/1vuHQUPU7tOYPOPuZwWUOdDTjyFNM7lo4/view?usp=sharing)
   * [Odysseus-MNIST](https://drive.google.com/file/d/1RN70TqTJQ5eop-Dspiqcbt3AjF1GTvQR/view?usp=sharing)
+  
+  
