@@ -33,11 +33,15 @@ By analysising the models in Odysseus, we found that Trojan attacks affect the i
   Based on these findings, we propose a new Trojan detector that sets a high baseline for the Odysseus dataset. 
 
   ![alt tag](./fig/Acc.png)
+  
+  The details of this study can be found [here](https://arxiv.org/pdf/2007.08142.pdf)
 
 ## Accessing Odysseus
 You can download the whole dataset or part of it based on your need.
   * [Odysseus-CIFAR10 ](https://drive.google.com/file/d/1xOP02xMflwpn0M7WGa9PibvxAdnNA4tn/view?usp=sharing)
   * [Odysseus-FashionMNIST](https://drive.google.com/file/d/1vuHQUPU7tOYPOPuZwWUOdDTjyFNM7lo4/view?usp=sharing)
   * [Odysseus-MNIST](https://drive.google.com/file/d/1RN70TqTJQ5eop-Dspiqcbt3AjF1GTvQR/view?usp=sharing)
+  
+  
   
   
