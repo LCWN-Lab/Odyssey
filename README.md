@@ -43,6 +43,6 @@ You can download the whole dataset or part of it based on your need.
   * [Odysseus-FashionMNIST](https://drive.google.com/file/d/1vuHQUPU7tOYPOPuZwWUOdDTjyFNM7lo4/view?usp=sharing)
   * [Odysseus-MNIST](https://drive.google.com/file/d/1RN70TqTJQ5eop-Dspiqcbt3AjF1GTvQR/view?usp=sharing)
   
-  THis is a test
+  
   
   
