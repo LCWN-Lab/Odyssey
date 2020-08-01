@@ -13,7 +13,6 @@ import numpy as np
 import glob
 import copy
 
-device = 'cuda' if torch.cuda.is_available() else 'cpu'
 
 class SimpleDataset(Dataset):
     """Docstring for SimpleDataset"""
