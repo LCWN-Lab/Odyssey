@@ -14,6 +14,8 @@ import math
 from Cifar10_models import *
 from mnist_architectures import Model_Google_1,Model_Google_2,Model_Google_3,Model_Google_4
 
+
+# model loader for mnist models
 def load_mnist_model(model_path, device,num_class=10):
     checkpoint = torch.load(model_path)
     print("keys are :", checkpoint.keys())
@@ -53,7 +55,7 @@ def load_mnist_model(model_path, device,num_class=10):
     return net, mapping  # checkpoint['Mapping']
 
 
-
+# model loader for Fashion_MNIST and Cifar10 models
 def load_model(model_path, device,num_class=10):
     print('model path ',model_path)
     checkpoint = torch.load(model_path)
