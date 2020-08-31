@@ -24,7 +24,9 @@ While creating [**Odysseus**](https://drive.google.com/drive/folders/1o-F3ttZS6e
 For each dataset, clean and Trojan models are trained for 4 different architectures. Namely Resent18, VGG19, Densent andd GoogleNet for CIFAR10 and Fashion-MNIST and 4 custom designed architectures for MNIST. We also considered various source to target label mapping for the Trojan models. 
  
  
- ![alt tag](./fig/model_creation.png)
+ ![alt tag](./fig/Mappings1.png)
+
+The overall stastistic of clean and Trojan models per datasets is as follow:
  
 ![alt tag](./fig/model_creation.png)
 
