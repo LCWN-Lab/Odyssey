@@ -14,26 +14,26 @@ Odyssey is a comprehensive study on creating, analaysing and detecting Trojan mo
 
 ## Introduction 
 Trojan attack is one of the recent variant of data poisoning attacks that involves manipulation or modification of the model to act balefully.
-This can occur when an attacker interferes with the training pipeline by inserting triggers into some of the training samples and trains the model to act maliciously only for samples that are stamped with trigger. Since the knowledge of such triggers is only privy to the attacker, detection of Trojan behaviour is a challenge task. 
+This can occur when an attacker interferes with the training pipeline by inserting triggers into some of the training samples and trains the model to act maliciously only for samples that are stamped with trigger. Since the knowledge of such triggers is only privy to the attacker, detection of Trojan behavior  is a challenge task. 
 
 A major reason for the lack of a realistic Trojan detection method has been the unavailability of a large-scale benchmark dataset, consisting of clean and Trojan models. Here we introduce [**Odysseus**](https://drive.google.com/drive/folders/1o-F3ttZS6el975XZOHOtqj8YxncHOivd?usp=sharing) the largest public dataset that contains over 3,000 trained clean and Tojan models based on Pytorch. 
 
 ## Odysseus
 
 While creating [**Odysseus**](https://drive.google.com/drive/folders/1o-F3ttZS6el975XZOHOtqj8YxncHOivd?usp=sharing), we focused on several factors such as mapping type, model architectures, fooling rate and validation accuracy of each model and also type of trigger. These models are trained on CIFAR10, Fashion-MNIST and MNIST datasets.
-For each dataset, clean and Trojan models are trained for 4 different architectures. Namely Resent18, VGG19, Densenet andd GoogleNet for CIFAR10 and Fashion-MNIST and 4 custom designed architectures for MNIST. We also considered various source to target label mapping for the Trojan models. 
+For each dataset, clean and Trojan models are trained for 4 different architectures. Namely Resent18, VGG19, Densenet and GoogleNet for CIFAR10 and Fashion-MNIST and 4 custom designed architectures for MNIST. We also considered various source to target label mapping for the Trojan models. 
  
  
  ![alt tag](./fig/Mappings1.png)
 
-The overall stastistics of clean and Trojan models per datasets is as follow:
+The overall statistics  of clean and Trojan models per datasets is as follow:
  
 ![alt tag](./fig/model_creation.png)
 
 ## Trojan Detector
-By analysising the models in Odysseus, we found that Trojan attacks affect the intrinisic properties of NN models. Specifically they can  
+By analyzing the models in Odysseus, we found that Trojan attacks affect the intrinsic properties of NN models. Specifically they can  
   * Reduce the classifier margin.
-  * Reduce the non-linearity of the decission boundaries around clean data.
+  * Reduce the non-linearity of the deciscion boundaries around clean data.
   
   Based on these findings, we propose a new Trojan detector that sets a high baseline for the Odysseus dataset. 
 
