@@ -20,8 +20,11 @@ A major reason for the lack of a realistic Trojan detection method has been the 
 
 ## Odysseus
 
-While creating [**Odysseus**](https://drive.google.com/drive/folders/1o-F3ttZS6el975XZOHOtqj8YxncHOivd?usp=sharing), we focused on several factors such as mapping type, model architectures, fooling rate and validation accuracy of each model and also type of trigger. These models are trained on CIFAR10, Fashion-MNIST and MNIST datasets. 
+While creating [**Odysseus**](https://drive.google.com/drive/folders/1o-F3ttZS6el975XZOHOtqj8YxncHOivd?usp=sharing), we focused on several factors such as mapping type, model architectures, fooling rate and validation accuracy of each model and also type of trigger. These models are trained on CIFAR10, Fashion-MNIST and MNIST datasets.
+For each dataset, clean and Trojan models are trained for 4 different architectures. Namely Resent18, VGG19, Densent andd GoogleNet for CIFAR10 and Fashion-MNIST and 4 custom designed architectures for MNIST. We also considered various source to target label mapping for the Trojan models. 
  
+ 
+ ![alt tag](./fig/model_creation.png)
  
 ![alt tag](./fig/model_creation.png)
 
