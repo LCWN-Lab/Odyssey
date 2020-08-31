@@ -14,7 +14,6 @@ torch==1.5.0
 torchvision==0.6.0
 torchtext==0.6.0
 spacy==2.2.0
-https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-2.2.0/en_core_web_sm-2.2.0.tar.gz#egg=en_core_web_sm
 cloudpickle==1.4.1
 tb-nightly==2.3.0a20200514
 future==0.18.2
