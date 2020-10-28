@@ -69,8 +69,8 @@ class GoogLeNet(nn.Module):
 
         self.a4 = Inception(480, 192,  96, 208, 16,  48,  64)
         self.b4 = Inception(512, 160, 112, 224, 24,  64,  64)
-        # self.c4 = Inception(512, 128, 128, 256, 24,  64,  64)
-        # self.d4 = Inception(512, 112, 144, 288, 32,  64,  64)
+        self.c4 = Inception(512, 128, 128, 256, 24,  64,  64)
+        self.d4 = Inception(512, 112, 144, 288, 32,  64,  64)
         self.e4 = Inception(528, 256, 160, 320, 32, 128, 128)
 
         self.a5 = Inception(832, 256, 160, 320, 32, 128, 128)
@@ -86,8 +86,8 @@ class GoogLeNet(nn.Module):
         out = self.maxpool(out)
         out = self.a4(out)
         out = self.b4(out)
-        # out = self.c4(out)
-        # out = self.d4(out)
+        out = self.c4(out)
+        out = self.d4(out)
         out = self.e4(out)
         out = self.maxpool(out)
         out = self.a5(out)
