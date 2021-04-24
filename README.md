@@ -31,9 +31,9 @@ The overall statistics  of clean and Trojan models per datasets is as follow:
 ![alt tag](./fig/model_creation.png)
 
 ## Trojan Detector
-By analyzing the models in Odysseus, we found that Trojan attacks affect the intrinsic properties of NN models. Specifically they can  
-  * Reduce the classifier margin.
-  * Reduce the non-linearity of the deciscion boundaries around clean data.
+By analyzing the models in Odysseus, we found that Trojan attacks affect the intrinsic properties of NN models. Specifically they can affect  
+  *  The classifier margin.
+  * The non-linearity of the deciscion boundaries around clean data.
   
   Based on these findings, we propose a new Trojan detector that sets a high baseline for the Odysseus dataset. 
 
