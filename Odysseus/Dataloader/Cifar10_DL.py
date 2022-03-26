@@ -71,20 +71,11 @@ class SimpleDataset(Dataset):
 
         images = torch.stack(images,dim=0)
         
-        ####images = np.stack(images)
-        ###images = np.array([np.array(cv2.imread(self.data_path+fname,cv2.IMREAD_UNCHANGED)) for fname in self.data]).astype(float)
         shp = images.size()
         images_min, _ = torch.min(images.view(shp[0], -1), dim=(1), keepdim=True)
         images_min = images_min.view((shp[0], 1, 1, 1))
         images_max, _ = torch.max(images.view(shp[0], -1), dim=(1), keepdim=True)
         images_max = images_max.view((shp[0], 1, 1, 1))
-        #images_min = np.amin(images, axis=(1, 2, 3), keepdims=True)
-        #images_max = np.amax(images, axis=(1, 2, 3), keepdims=True)
-        # images=(images-images_min)/(images_max-images_min)
-
-        #images = torch.from_numpy(images).float()
-
-        #images = images.permute(0, 3, 1, 2)
 
         labels = torch.from_numpy(np.array(labels))
         train_labels = torch.from_numpy(np.array(train_labels))
@@ -108,24 +99,13 @@ class SimpleDataset(Dataset):
                 train_labels.append(self.train_label[i])
                 counter = counter + 1
 
-        #images = np.array(images).astype(float)
-        #images = torch.FloatTensor(images)
         images=torch.stack(images, dim=0)
         
-        ####images = np.stack(images)
-        ###images = np.array([np.array(cv2.imread(self.data_path+fname,cv2.IMREAD_UNCHANGED)) for fname in self.data]).astype(float)
         shp=images.size()
         images_min,_= torch.min(images.view(shp[0],-1),dim=(1),keepdim=True)
         images_min=images_min.view((shp[0],1,1,1))
         images_max,_=torch.max(images.view(shp[0],-1),dim=(1),keepdim=True)
         images_max=images_max.view((shp[0],1,1,1))
-        #images_min = np.amin(images, axis=(1, 2, 3), keepdims=True)
-        #images_max = np.amax(images, axis=(1, 2, 3), keepdims=True)
-        # images=(images-images_min)/(images_max-images_min)
-
-        #images = torch.from_numpy(images).float()
-
-        #images = images.permute(0, 3, 1, 2)
 
         labels = torch.from_numpy(np.array(labels))
         train_labels = torch.from_numpy(np.array(train_labels))
