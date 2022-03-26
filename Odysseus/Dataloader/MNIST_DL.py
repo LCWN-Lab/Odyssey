@@ -39,16 +39,12 @@ class SimpleDataset(Dataset):
 
     def __getitem__(self, index):
         img=np.array(Image.open(os.path.join(self.data_path,self.data[index])))
-        
         if self.data_transform:
             img = self.data_transform(img)
-        #label = self.data_df.iloc[index][self.label]
         label=self.True_label[index]
         label = self.label_transform(label)
         train_label=self.train_label[index]
         train_label=self.label_transform(train_label)
-        
-        
         return img, label,train_label
 
 
@@ -71,23 +67,11 @@ class SimpleDataset(Dataset):
                 train_labels.append(self.train_label[i])
                 counter[lbl]=counter[lbl]+1
                 
-            
-        
         images=torch.stack(images)
         s=images.size()
         
-        ####images = np.stack(images)
-        ##print("images size in NIST loader:", images.shape)    
-        ###images = np.array([np.array(cv2.imread(self.data_path+fname,cv2.IMREAD_UNCHANGED)) for fname in self.data]).astype(float)
-        #images_min=np.amin(images,axis=(1,2,3),keepdims=True)
         images_min=torch.min(images.view(-1,s[1]*s[2]*s[3]),dim=1)
         images_max=torch.max(images.view(-1,s[1]*s[2]*s[3]),dim=1)
-        #images_max=np.amax(images,axis=(1,2,3),keepdims=True)
-        #images=(images-images_min)/(images_max-images_min)
-        
-        #images=torch.from_numpy(images).float()
-        
-        #images=images.permute(0,3,1,2)
         
         labels=torch.from_numpy(np.array(labels))
         train_labels=torch.from_numpy(np.array(train_labels))
