@@ -34,7 +34,7 @@ For different type of trigger generation-
 
 
 
-Please download the MNIST, Fashion-MNIST and CIFAR10 datasets from their corresponding Website. After that, for generating triggered dataset (First Task) Use these command lines-
+Please download the MNIST, Fashion-MNIST and CIFAR10 datasets from their corresponding websites. I have added the csv files in the "data" folder. After that, for generating triggered dataset (First Task) Use these command lines-
 
 	1. Run "trigerred_dataset_cifar10.py" for creating trigerred dataset out of cifar10. 
 	2. Run "trigerred_dataset_fmnist.py" for creating trigerred dataset out of FMNIST.
